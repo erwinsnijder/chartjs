@@ -16,7 +16,14 @@ var myChart = new Chart(ctx, {
     label: "Africa",
     borderColor: "#3e95cd",
     fill: false
-    }
+    },
+    {
+      data: asia,
+      label: "Asia",
+      borderColor: "#ffff00",
+      fill: false 
+    },
+
     ]
   }
 });
