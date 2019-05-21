@@ -17,49 +17,50 @@ var myChart = new Chart(ctx, {
         data: World,
         label: "World",
         borderColor: "#000000",
-        fill: false
+        backgroundColor: "#000000",
+        fill: true
         },
       { 
     data: Africa,
     label: "Africa",
     borderColor: "#3e95cd",
-    fill: false
-    },
-      { 
-    data: Africa,
-    label: "Africa",
-    borderColor: "#3e95cd",
-    fill: false
+    backgroundColor: "#3e95cd",
+    fill: true
     },
     {
       data: Asia,
       label: "Asia",
       borderColor: "#ffff00",
-      fill: false 
+      backgroundColor: "#ffff00",
+      fill: true 
     },
     { 
       data: Europe,
       label: "Europe",
       borderColor: "#228B22",
-      fill: false
+      backgroundColor: "#228B22",
+      fill: true
     },
     { 
       data: Latinamerica,
       label: "Latin America",
       borderColor: "#FF7F50",
-      fill: false
+      backgroundColor: "#FF7F50",
+      fill: true
     },
     { 
       data: Northamerica,
       label: "North America",
       borderColor: "#ff0000",
-      fill: false
+      backgroundColor: "#ff0000",
+      fill: true
     },
     { 
       data: Oceania,
       label: "Oceania",
       borderColor: "#00ffff",
-      fill: false
+      backgroundColor: "#00ffff",
+      fill: true
     }
     ]
   }
