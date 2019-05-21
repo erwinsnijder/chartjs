@@ -23,7 +23,18 @@ var myChart = new Chart(ctx, {
       borderColor: "#ffff00",
       fill: false 
     },
-
+    { 
+      data: europe,
+      label: "Europe",
+      borderColor: "#228B22",
+      fill: false
+    },
+    { 
+      data: latinamerica,
+      label: "latinamerica",
+      borderColor: "#FF7F50",
+      fill: false
+    },
     ]
   }
 });
