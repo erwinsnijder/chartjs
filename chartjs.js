@@ -35,6 +35,12 @@ var myChart = new Chart(ctx, {
       borderColor: "#FF7F50",
       fill: false
     },
+    { 
+      data: northamerica,
+      label: "North America",
+      borderColor: "#3e95cd",
+      fill: false
+    }
     ]
   }
 });
