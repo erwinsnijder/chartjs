@@ -38,7 +38,7 @@ var myChart = new Chart(ctx, {
     { 
       data: northamerica,
       label: "North America",
-      borderColor: "#3e95cd",
+      borderColor: "#ff0000",
       fill: false
     }
     ]
